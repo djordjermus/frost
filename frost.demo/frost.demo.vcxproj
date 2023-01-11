@@ -129,6 +129,14 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\frost.core\frost.core.vcxproj">
+      <Project>{a1e6509a-2583-4c49-98fb-a0fe479d865d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\frost.engine\frost.engine.vcxproj">
+      <Project>{8aafc59c-4e01-406e-a3e5-f1b0b0116ac7}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

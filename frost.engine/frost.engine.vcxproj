@@ -140,6 +140,11 @@
   <ItemGroup>
     <ClInclude Include="_macro.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\frost.core\frost.core.vcxproj">
+      <Project>{a1e6509a-2583-4c49-98fb-a0fe479d865d}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
