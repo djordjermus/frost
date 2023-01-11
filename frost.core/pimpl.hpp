@@ -2,7 +2,7 @@
 #pragma once
 namespace frost
 {
-	template<class T, u64 index> class pimpl_type;
+	template<class T, u64 index = 0> class pimpl_type;
 
 	template<class T, u64 index = 0>
 	class pimpl
